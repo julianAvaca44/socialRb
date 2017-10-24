@@ -1,0 +1,26 @@
+{
+  "name": "social",
+  "version": "1.0.0",
+  "description": "mini red social",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "dev": "echo pruebas",
+    "build": "webpack --config webpack.config.js --watch"
+  },
+  "keywords": [
+    "rbSocial"
+  ],
+  "author": "julian federico avaca",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.0.0",
+    "react-bootstrap": "^0.31.3",
+    "react-dom": "^16.0.0"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^3.8.1"
+  }
+}
