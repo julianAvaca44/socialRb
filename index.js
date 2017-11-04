@@ -1,4 +1,4 @@
-require("./app/styles.css")
+require("./styles.css")
 //const app = require('express');
 
 let varpepe = "Hola mundoooo!";

@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "test",
-    "dev": "echo pruebas",
+    "dev": "node server.js",
     "build": "webpack --config webpack.config.js -w"
   },
   "keywords": [
@@ -14,6 +14,7 @@
   "author": "julian federico avaca",
   "license": "ISC",
   "dependencies": {
+    "babel-cli": "^6.26.0",
     "babel-core": "^6.7.6",
     "babel-loader": "^6.2.4",
     "babel-plugin-transform-class-properties": "6.24.1",
