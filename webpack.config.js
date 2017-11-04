@@ -2,6 +2,7 @@
 const path = require('path');
 
 const CONFIG = {
+	"devtool": "inline-source-map",
 	"entry": "./index.js",
 	"output": {
 		"path": path.resolve(__dirname, "dist"),
@@ -18,7 +19,7 @@ const CONFIG = {
         "loader": "babel-loader",
         "exclude": /node_modules/,
         "query": {
-          "presets": ["es2015"]
+          "presets": ["es2015","react"]
         }
       }
     ]
