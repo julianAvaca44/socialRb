@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom';
 require(__dirname + "/dist/styles.css")
 //const app = require('express');
 
-let varpepe = "Hola mundoooo locorrr!";
-console.log(varpepe);
+let seed = "La semilla";
+console.log(seed);
 
 class App extends React.Component {
 	render(){
